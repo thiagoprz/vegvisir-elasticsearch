@@ -1,0 +1,33 @@
+{
+  "name": "thiagoprz/vegvisir-elasticsearch",
+  "description": "Vegvisir Elasticsearch - Laravel Search Indexer",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-4": {
+      "Thiagoprz\\VegvisirElasticsearch\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "Thiagoprz\\VegvisirElasticsearch\\Tests\\": "tests",
+    "classmap": [
+      "tests"
+    ]
+  },
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "^8.x-dev || 9.*",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*",
+    "spatie/data-transfer-object": "^3.7.3",
+    "thiagoprz/vegvisir": "dev-main",
+    "elasticsearch/elasticsearch": "^7"
+  },
+  "require-dev": {
+    "orchestra/testbench": "6"
+  }
+}
