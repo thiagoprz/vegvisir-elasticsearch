@@ -5,6 +5,7 @@ namespace Thiagoprz\VegvisirElasticsearch;
 use Elasticsearch\Client;
 use Elasticsearch\ClientBuilder;
 use Thiagoprz\Vegvisir\Interfaces\AdapterInterface;
+use Thiagoprz\Vegvisir\VegvisirServiceProvider;
 use Thiagoprz\VegvisirElasticsearch\Adapters\ElasticSearchAdapter;
 
 class VegvisirElasticSearchServiceProvider extends VegvisirServiceProvider
